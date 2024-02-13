@@ -1,0 +1,8 @@
+{
+  "name": "Your Dev Container",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "workspaceMount": "source=.", // This line mounts your source code into the container
+}
